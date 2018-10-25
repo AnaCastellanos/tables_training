@@ -1,34 +1,4 @@
-
-<table>
-  <tr *ngFor="let row of (block)">
-    <td
-      *ngFor="let column of (row)"
-    >
-      <app-box [item]="column"></app-box>
-    </td>
-  </tr>
-</table>
+<h2>Hacer una tabla correctamente</h2>
 
 
-
-
-<!--table>-->
-<!--<tr *ngFor= "let row of (block);">-->
-  <!--<td *ngFor= "let column of (row);"-->
-      <!--class="cuadro"-->
-
-  <!--&gt;-->
-    <!--<app-box [item]= "column"-->
-             <!--(onBoxClick)="onBoxCLick($event)"-->
-    <!--&gt;-->
-
-      <!--<div>-->
-        <!--{{getValue(column)}}-->
-        <!--{{getString(column)}}-->
-      <!--</div>-->
-
-
-    <!--</app-box>-->
-  <!--</td>-->
-<!--</tr>-->
-<!--</table>-->
+<app-tabla></app-tabla>
