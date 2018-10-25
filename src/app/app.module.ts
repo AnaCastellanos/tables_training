@@ -16,7 +16,7 @@ import { TablaComponent } from './tabla/tabla.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatTableModule,
-    CdkTableModule
+    CdkTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
