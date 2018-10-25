@@ -1,0 +1,22 @@
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Nombre(s) </th>
+    <td mat-cell *matCellDef="let field"> {{field.name}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="lastName">
+    <th mat-header-cell *matHeaderCellDef> Apellidos </th>
+    <td mat-cell *matCellDef="let field"> {{field.lastName}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="mail">
+    <th mat-header-cell *matHeaderCellDef> Email </th>
+    <td mat-cell *matCellDef="let field"> {{field.mail}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayColumns;"></tr>
+</table>
+
