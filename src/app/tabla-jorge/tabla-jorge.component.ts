@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {TableSource} from '../models/TableSource.model';
+import {TableSourceModel} from '../models/TableSource.model';
 
 @Component({
   selector: 'app-tabla-jorge',
@@ -8,7 +8,7 @@ import {TableSource} from '../models/TableSource.model';
 })
 export class TablaJorgeComponent implements OnInit {
   displayColumns: string[] = ['name', 'lastName', 'mail'];
-  dataSource: TableSource[] = [];
+  dataSource: TableSourceModel[] = [];
 
   constructor() { }
 
@@ -17,5 +17,4 @@ export class TablaJorgeComponent implements OnInit {
       this.dataSource.push({name: 'Jorge Alberto', lastName: 'Piña Granados', mail: 'jorge.pina@polimentes.mx'});
     }
   }
-
 }
