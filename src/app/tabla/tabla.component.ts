@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Recursos } from '../recursos.model';
+
 
 
 @Component({
@@ -19,21 +21,3 @@ export class TablaComponent implements OnInit {
     }
   }
 }
-// export interface Recursos {
-//   nombre: string;
-//   apellido: string;
-//   correo: string;
-// }
-//
-// const  : Recursos [] = [
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-//   { nombre: 'Christian', apellido: 'Cruz', correo: 'christian.Cruz@polimente.com'},
-// ];

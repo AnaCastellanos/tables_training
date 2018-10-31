@@ -1,12 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatTableModule} from '@angular/material/table';
+import {CdkTableModule} from '@angular/cdk/table';
 
 import { AppComponent } from './app.component';
 import { TablaComponent } from './tabla/tabla.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { MatButtonModule, MatCheckboxModule } from '@angular/material';
-import { CdkTableModule } from '@angular/cdk/table';
-import { MatTableModule } from '@angular/material/table';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,8 +15,6 @@ import { MatTableModule } from '@angular/material/table';
     BrowserModule,
     MatTableModule,
     BrowserAnimationsModule,
-    // MatButtonModule,
-    // MatCheckboxModule,
     CdkTableModule,
   ],
   providers: [],
