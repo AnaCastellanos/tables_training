@@ -1,15 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Recursos } from '../recursos.model';
 
-
-
 @Component({
-  selector: 'app-tabla',
-  templateUrl: './tabla.component.html',
-  styleUrls: ['./tabla.component.css']
+  selector: 'app-tablechris',
+  templateUrl: './tablechris.component.html',
+  styleUrls: ['./tablechris.component.css']
 })
-export class TablaComponent implements OnInit {
+export class TablechrisComponent implements OnInit {
   displayedColumns: string[] = ['Nombre', 'Apellido', 'Correo'];
   dataSource: Recursos [] = [];
 

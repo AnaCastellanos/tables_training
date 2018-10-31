@@ -5,11 +5,12 @@ import {MatTableModule} from '@angular/material/table';
 import {CdkTableModule} from '@angular/cdk/table';
 
 import { AppComponent } from './app.component';
-import { TablaComponent } from './tabla/tabla.component';
+
+import { TablechrisComponent } from './tablechris/tablechris.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TablaComponent
+    TablechrisComponent
   ],
   imports: [
     BrowserModule,
