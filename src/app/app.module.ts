@@ -5,12 +5,12 @@ import {MatTableModule} from '@angular/material/table';
 import {CdkTableModule} from '@angular/cdk/table';
 
 import { AppComponent } from './app.component';
-import { TablaComponent } from './tabla/tabla.component';
+import { TablaJorgeComponent } from './tabla-jorge/tabla-jorge.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TablaComponent
+    TablaJorgeComponent
   ],
   imports: [
     BrowserModule,

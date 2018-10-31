@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import {TableSource} from '../models/TableSource.model';
 
 @Component({
-  selector: 'app-tabla',
-  templateUrl: './tabla.component.html',
-  styleUrls: ['./tabla.component.css']
+  selector: 'app-tabla-jorge',
+  templateUrl: './tabla-jorge.component.html',
+  styleUrls: ['./tabla-jorge.component.css']
 })
-export class TablaComponent implements OnInit {
+export class TablaJorgeComponent implements OnInit {
   displayColumns: string[] = ['name', 'lastName', 'mail'];
   dataSource: TableSource[] = [];
 
@@ -19,4 +19,3 @@ export class TablaComponent implements OnInit {
   }
 
 }
-
